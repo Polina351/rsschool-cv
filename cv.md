@@ -26,3 +26,9 @@ button.addEventListener('click',function() {
 	}
 });
 ```
+## Education
+* **University:** St. Petersburg State Agrarian University, Faculty of Animal Engineering and Biotechnology
+* **Courses:** GeekBrains, Frontend developer (in process)
+## Languages
+* Russian - Native
+* English A2 (B1 in process)
