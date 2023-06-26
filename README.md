@@ -1,1 +1,1 @@
-# rsschool-cv
+https://polina351.github.io/rsschool-cv/cv
