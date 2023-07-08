@@ -117,6 +117,16 @@ a {
     color: #ffffff;
     margin-bottom: 30px;
 }
+.projects_box {
+    display: flex;
+    justify-content: space-between;
+}
+.project_link {
+    display: block;
+}
+.project_img {
+    width: 300px;
+}
 .footer {
     height: 70px;
     background-color: #f5f5ef;
