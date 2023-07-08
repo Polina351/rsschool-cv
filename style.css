@@ -49,6 +49,9 @@ body {
     background-size: 100%;
     margin-bottom: 15px;
 }
+.contacts_sidebar {
+    color: #262626;
+}
 .footer_sidebar {
     margin-top: 50px;
     padding-bottom: 30px;
@@ -84,4 +87,57 @@ a {
 }
 .top_margin {
     margin-top: 50px;
+}
+/*основная часть*/
+.page_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    background-color: #f5f5ef;
+}
+.header_nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.li_nav {
+    list-style-type: none;
+}
+.link_nav {
+    color: #262626;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main_subtitle {
+    text-align: center;
+    background-color: #262626;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.footer {
+    height: 70px;
+    background-color: #f5f5ef;
+}
+.link_box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+.footer_github {
+    width: 50px;
+}
+.footer_rs {
+    width: 100px;
+}
+.footer_link, .copyright {
+    color: #262626;
+}
+.copyright {
+    font-size: 12px;
+    text-align: center;
 }
