@@ -89,6 +89,12 @@ a {
     margin-top: 50px;
 }
 /*основная часть*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
 .page_content {
     display: flex;
     flex-direction: column;
@@ -98,9 +104,10 @@ a {
     background-color: #f5f5ef;
 }
 .header_nav {
+    border-bottom: 10px solid #ffffff;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
 }
 .li_nav {
     list-style-type: none;
@@ -111,11 +118,29 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.slill_list, .prettyprint, .projects_box, .main_text {
+    margin-left: 15px;
+}
 .main_subtitle {
+    width: 70%;
     text-align: center;
     background-color: #262626;
     color: #ffffff;
     margin-bottom: 30px;
+}
+.skill_icon {
+    width: 25px;
+}
+.slill_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.li_skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
 }
 .projects_box {
     display: flex;
@@ -152,5 +177,6 @@ a {
     text-align: center;
 }
 pre.prettyprint {
+    font-size: 16px;
     border-width: 0;
 }
