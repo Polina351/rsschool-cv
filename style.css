@@ -141,3 +141,6 @@ a {
     font-size: 12px;
     text-align: center;
 }
+pre.prettyprint {
+    border-width: 0;
+}
