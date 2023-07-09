@@ -88,7 +88,6 @@ a {
 .top_margin {
     margin-top: 50px;
 }
-/*основная часть*/
 main {
     display: flex;
     flex-direction: column;
